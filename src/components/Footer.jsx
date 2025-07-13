@@ -39,7 +39,7 @@ const Footer = () => {
                 </Typography>
 
             </Grid>
-            <div className='flex flex-col md:flex-row gap-20 mx-auto justify-between'>
+            <div className=' grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-20 mx-auto justify-between'>
 
                   {
                 FooterData.map((section,index)=>(
